@@ -23,10 +23,10 @@ TARGET_OTA_ASSERT_DEVICE := D5803,D5833,z3c
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/z3c/include
 
-BOARD_HARDWARE_CLASS += device/sony/z3c/cmhw
+BOARD_HARDWARE_CLASS += device/sony/z3c/mkhw
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinano_aries_defconfig
+TARGET_KERNEL_CONFIG := mokee_shinano_aries_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
