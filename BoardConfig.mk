@@ -24,7 +24,7 @@ DEVICE_PATH := device/sony/z3c
 TARGET_OTA_ASSERT_DEVICE := z3c
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := lineageos_shinano_aries_defconfig
+TARGET_KERNEL_CONFIG := mokee_shinano_aries_defconfig
 
 # Partition information
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2671771648
